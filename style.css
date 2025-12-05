@@ -1,0 +1,57 @@
+
+/* ===== GENERAL ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0b1220;
+  color: #e6f0f6;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #8cc7ff;
+}
+
+/* ===== DOCUMENTS & LIVRABLES ===== */
+.documents-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.document-card {
+  background: #131a28;
+  border: 1px solid #203040;
+  padding: 20px;
+  border-radius: 10px;
+  color: #e6f0f6;
+}
+
+.document-card h3 {
+  margin-top: 0;
+  color: #8cc7ff;
+}
+
+.document-card p {
+  color: #9fb3c8;
+  font-size: 0.9rem;
+}
+
+.document-card .btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background: #5fb0d9;
+  color: #06202a;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
