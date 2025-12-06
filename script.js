@@ -12,11 +12,17 @@ document.addEventListener('DOMContentLoaded', function(){
 const documents = [
   {
     file: "Cyberlab.pdf",
-    title: "Rapport Cyberlab",
-    desc: "Déploiement Suricata, Kali Linux, analyse réseau et tests d’attaques."
+    title: "Rapport Environnement de Pentest",
+    desc: "Déploiement Suricata, Kali Linux, analyse réseau et tests d’attaques dans un environnement Dockerisé."
   }
   // Tu pourras ajouter d’autres documents ici :
-  // { file: "Rapport_Wazuh.pdf", title: "Rapport Wazuh", desc: "Analyse SIEM & détections." },
+  { 
+  
+  file: "Rapport BE.pdf", 
+  title: "IAM & Contrôle d'accès", 
+  desc: "Conception et déploiement d’une infrastructure IAM complète basée sur les principes AAA avec contrôle d’accès RBAC, PKI interne et sécurisation des communications." },
+}
+
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -33,7 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
       <p>${doc.desc}</p>
       <p style="margin-top:12px;">
         <a href="documents/${doc.file}" target="_blank" style="color:#8cc7ff;text-decoration:none;font-weight:bold;">
-          ➜ Télécharger / Voir le document
+          ➜ Voir le document
         </a>
       </p>
     `;
