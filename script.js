@@ -15,14 +15,11 @@ const documents = [
     title: "Rapport Environnement de Pentest",
     desc: "Déploiement Suricata, Kali Linux, analyse réseau et tests d’attaques dans un environnement Dockerisé."
   },
-  // Tu pourras ajouter d’autres documents ici :
   { 
-  
-  file: "Rapport BE.pdf", 
-  title: "IAM & Contrôle d'accès", 
-  desc: "Conception et déploiement d’une infrastructure IAM complète basée sur les principes AAA avec contrôle d’accès RBAC, PKI interne et sécurisation des communications." },
-}
-
+    file: "Rapport BE.pdf", 
+    title: "IAM & Contrôle d'accès", 
+    desc: "Conception et déploiement d’une infrastructure IAM complète basée sur les principes AAA avec contrôle d’accès RBAC, PKI interne et sécurisation des communications." 
+  }
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
