@@ -14,7 +14,7 @@ const documents = [
     file: "Cyberlab.pdf",
     title: "Rapport Environnement de Pentest",
     desc: "Déploiement Suricata, Kali Linux, analyse réseau et tests d’attaques dans un environnement Dockerisé."
-  }
+  },
   // Tu pourras ajouter d’autres documents ici :
   { 
   
