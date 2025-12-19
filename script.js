@@ -19,7 +19,14 @@ const documents = [
     file: "Rapport BE.pdf", 
     title: "IAM & Contrôle d'accès", 
     desc: "Conception et déploiement d’une infrastructure IAM complète basée sur les principes AAA avec contrôle d’accès RBAC, PKI interne et sécurisation des communications." 
+  },
+  
+ { 
+    file: "RapportGLPI.pdf", 
+    title: " GLPI – Administration & ITSM", 
+    desc: "Mise en place complète de GLPI, incluant l’installation et la configuration des composants nécessaires (Apache, MariaDB, PHP). Le projet couvre la création et la sécurisation de la base de données, la configuration du serveur web et le déploiement de l’application. L’accès à GLPI est sécurisé via HTTPS grâce à un certificat SSL auto-signé généré avec OpenSSL." 
   }
+  
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
