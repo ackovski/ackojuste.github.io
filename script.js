@@ -24,7 +24,12 @@ const documents = [
     file: "RapportGLPI.pdf", 
     title: " GLPI – Administration & ITSM", 
     desc: "Mise en place complète de GLPI, incluant l’installation et la configuration des composants nécessaires (Apache, MariaDB, PHP). Le projet couvre la création et la sécurisation de la base de données, la configuration du serveur web et le déploiement de l’application. L’accès à GLPI est sécurisé via HTTPS grâce à un certificat SSL auto-signé généré avec OpenSSL." 
-  } 
+  }, 
+ { 
+    file: "Rapport PfSense.pdf", 
+    title: " Architecture réseau sécurisée multi-zones ", 
+    desc: "Conception et déploiement d’un réseau WAN / LAN / DMZ / VPN avec pfSense, supervision (ntopng) et IDS (Suricata). Isolation des zones et centralisation des logs pour fiabilité et sécurité.  } 
+ 
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
