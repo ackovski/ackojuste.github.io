@@ -28,8 +28,8 @@ const documents = [
  { 
     file: "Rapport PfSense.pdf", 
     title: " Architecture réseau sécurisée multi-zones ", 
-    desc: "Conception et déploiement d’un réseau WAN / LAN / DMZ / VPN avec pfSense, supervision (ntopng) et IDS (Suricata). Isolation des zones et centralisation des logs pour fiabilité et sécurité.  } 
- 
+    desc: "Conception et déploiement d’un réseau WAN / LAN / DMZ / VPN avec pfSense, supervision (ntopng) et IDS (Suricata). Isolation des zones et centralisation des logs pour fiabilité et sécurité."  
+  } 
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
