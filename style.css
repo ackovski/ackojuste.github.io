@@ -562,12 +562,27 @@ body{
 }
 
 /* ================================
-   CTA CONTACT CENTER
+   CONTACT CTA CENTER
    ================================ */
 
+.footer-cta{
+  text-align:center;
+}
+
+
+.footer-cta .container{
+  display:flex;
+  justify-content:center;
+}
+
+
 .footer-cta .cta-card{
+
+  width:100%;
   max-width:750px;
+
   margin:0 auto;
+
   text-align:center;
 
   background:
@@ -585,27 +600,41 @@ body{
 
   box-shadow:
   0 0 30px rgba(0,217,255,.08);
+
 }
 
 
-.footer-cta .cta-card h2{
+.footer-cta h3{
 
   color:var(--cyan);
 
-  margin-bottom:15px;
+  margin-top:0;
+
+  margin-bottom:18px;
 
 }
 
 
-.footer-cta .cta-card p{
+.footer-cta p{
 
-  color:var(--text);
+  text-align:center;
+
+  margin:10px auto;
+
+  max-width:700px;
+
+}
+
+
+.footer-cta a{
+
+  color:var(--cyan);
 
 }
 
 
 .footer-cta .btn-primary{
 
-  margin-top:18px;
+  margin-top:20px;
 
 }
